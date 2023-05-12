@@ -18,12 +18,6 @@ export const Searchbar = ({ onSubmit }) => {
       }}
       onSubmit={(values, { resetForm }) => {
         const normalizeInput = values.input.toLowerCase().trim();
-        // if (
-        //   contacts.find(contact => contact.name.toLowerCase() === normalizeName)
-        // ) {
-        //   return alert(`${values.name} is already in contact list`);
-        // }
-
         onSubmit(normalizeInput);
         resetForm();
       }}
