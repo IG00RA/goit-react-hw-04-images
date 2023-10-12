@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/goit-react-hw-04-images/static/css/main.ef3fe254.css",
-    "main.js": "/goit-react-hw-04-images/static/js/main.ab9691de.js",
+    "main.js": "/goit-react-hw-04-images/static/js/main.9a490ad9.js",
+    "static/media/05_right_trees.png": "/goit-react-hw-04-images/static/media/05_right_trees.5315ec676ef39c33392e.png",
+    "static/media/06_left_trees.png": "/goit-react-hw-04-images/static/media/06_left_trees.06746ecdce4c47e1bb58.png",
+    "static/media/04_centertrees.png": "/goit-react-hw-04-images/static/media/04_centertrees.638c1f4df705ce247d0d.png",
+    "static/media/02_temple.png": "/goit-react-hw-04-images/static/media/02_temple.9b2ef0ac6b27d4ab5805.png",
+    "static/media/03_fog.png": "/goit-react-hw-04-images/static/media/03_fog.a4fcfba49a6a60aeec44.png",
+    "static/media/07_leaf.png": "/goit-react-hw-04-images/static/media/07_leaf.18e202e11da58e3dce33.png",
+    "static/media/01_backclouds.jpg": "/goit-react-hw-04-images/static/media/01_backclouds.33385f530a4ea4030dfc.jpg",
     "index.html": "/goit-react-hw-04-images/index.html",
     "main.ef3fe254.css.map": "/goit-react-hw-04-images/static/css/main.ef3fe254.css.map",
-    "main.ab9691de.js.map": "/goit-react-hw-04-images/static/js/main.ab9691de.js.map"
+    "main.9a490ad9.js.map": "/goit-react-hw-04-images/static/js/main.9a490ad9.js.map"
   },
   "entrypoints": [
     "static/css/main.ef3fe254.css",
-    "static/js/main.ab9691de.js"
+    "static/js/main.9a490ad9.js"
   ]
 }
