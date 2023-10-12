@@ -1,9 +1,12 @@
 import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 import PropTypes from 'prop-types';
-import { ImageGalleryStyle } from './ImageGallery.styled';
+import { BsCardImageSvg, ImageGalleryStyle } from './ImageGallery.styled';
 import { ImageGalleryItemStyled } from 'components/ImageGalleryItem/ImageGalleryItem.styled';
 
-export const ImageGallery = ({ data }) => {
+export const ImageGallery = ({ data, status }) => {
+  if (status === 'idle') {
+    return <BsCardImageSvg />;
+  }
   if (data.length !== 0) {
     return (
       <ImageGalleryStyle>
@@ -22,5 +25,6 @@ export const ImageGallery = ({ data }) => {
 };
 
 ImageGallery.propTypes = {
+  status: PropTypes.string.isRequired,
   data: PropTypes.array.isRequired,
 };
